@@ -166,6 +166,7 @@ fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == stimulusy)) * 100);
 
 %% ==========================·Ö×ÖÄ¸ÑéÖ¤============================
 chartrials = trialnr(charsamples);
+charnr = length(charsamples);
 trialamond =[0;chartrials;max(trialnr)];
 
     count = 1;
